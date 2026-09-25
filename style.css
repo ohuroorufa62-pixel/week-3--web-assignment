@@ -1,0 +1,299 @@
+```css
+/* =====================================
+   COLOR PALETTE
+   =====================================
+
+   Blue   = #2563eb
+   Dark   = #1e293b
+   Light  = #f1f5f9
+   White  = #ffffff
+   Border = #cbd5e1
+*/
+
+
+/* =====================================
+   GENERAL PAGE
+   ===================================== */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+
+    margin: 0;
+    padding: 30px;
+
+    line-height: 1.6;
+}
+
+
+/* =====================================
+   HEADINGS
+   ===================================== */
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #2563eb;
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+h2 {
+    color: #2563eb;
+    margin-top: 0;
+}
+
+
+/* =====================================
+   HEADER CARD
+   ===================================== */
+
+header {
+    background-color: #ffffff;
+
+    padding: 30px;
+    margin-bottom: 25px;
+
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+
+    text-align: center;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+header img {
+    border-radius: 50%;
+}
+
+header p {
+    color: #64748b;
+    font-size: 16px;
+}
+
+
+/* =====================================
+   ADD EXPENSE CARD
+   ===================================== */
+
+#add-expense {
+    background-color: #ffffff;
+
+    padding: 25px;
+    margin-bottom: 25px;
+
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =====================================
+   FORM
+   ===================================== */
+
+form {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+
+    margin-top: 12px;
+    margin-bottom: 6px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+
+/* Input and select styling */
+
+input,
+select {
+    width: 100%;
+    max-width: 400px;
+
+    padding: 12px;
+
+    margin-bottom: 15px;
+
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+
+    background-color: #ffffff;
+}
+
+
+/* Input focus */
+
+input:focus,
+select:focus {
+    outline: none;
+
+    border-color: #2563eb;
+
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+
+/* =====================================
+   BUTTON
+   ===================================== */
+
+button {
+    background-color: #2563eb;
+    color: #ffffff;
+
+    padding: 12px 24px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+
+    cursor: pointer;
+
+    margin-top: 5px;
+}
+
+
+/* Button hover */
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* =====================================
+   EXPENSE TABLE CARD
+   ===================================== */
+
+.expenses {
+    background-color: #ffffff;
+
+    padding: 25px;
+    margin-bottom: 25px;
+
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =====================================
+   TABLE
+   ===================================== */
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 15px;
+}
+
+
+/* Table cells */
+
+th,
+td {
+    border: 1px solid #cbd5e1;
+
+    padding: 14px;
+
+    text-align: left;
+}
+
+
+/* Table header */
+
+th {
+    background-color: #2563eb;
+    color: #ffffff;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+/* Alternating rows */
+
+tr:nth-child(even) {
+    background-color: #f1f5f9;
+}
+
+
+/* Table hover */
+
+tr:hover {
+    background-color: #dbeafe;
+}
+
+
+/* =====================================
+   DETAILS CARD
+   ===================================== */
+
+details {
+    background-color: #ffffff;
+
+    padding: 20px;
+    margin-bottom: 25px;
+
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+summary {
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 600;
+
+    color: #2563eb;
+
+    cursor: pointer;
+}
+
+
+/* =====================================
+   VIDEO CARD
+   ===================================== */
+
+.video-section {
+    background-color: #ffffff;
+
+    padding: 25px;
+    margin-bottom: 25px;
+
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Rounded video */
+
+iframe {
+    max-width: 100%;
+
+    border-radius: 10px;
+}
+```
